@@ -1,0 +1,22 @@
+paths:
+  videos_dir: data/videos
+  annotations_dir: data/annotations
+  output_dir: outputs
+
+video:
+  sample_fps: 1          # кадров в секунду; каждый кадр — запрос к VLM, поэтому не завышайте
+  min_sharpness: 60.0    # порог дисперсии лапласиана: размытые кадры отбрасываем
+  max_side: 1920         # длинную сторону кадра ужимаем до этого значения
+
+vlm:
+  base_url: http://localhost:8000/v1   # любой OpenAI-совместимый сервер (vLLM, Ollama, облачный API)
+  model: Qwen/Qwen2.5-VL-7B-Instruct   # имя модели на сервере
+  api_key_env: VLM_API_KEY             # переменная окружения с ключом; для локального сервера можно не задавать
+  max_tokens: 2048
+  jpeg_quality: 90
+  timeout: 120
+  max_retries: 2
+
+aggregation:
+  min_observations: 2    # ценник должен быть виден минимум на стольких кадрах
+  name_similarity: 0.85  # порог схожести названий для склейки наблюдений

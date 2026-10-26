@@ -1,0 +1,4 @@
+opencv-python-headless>=4.8
+numpy>=1.24
+openai>=1.40
+pyyaml>=6.0
