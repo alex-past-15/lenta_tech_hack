@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Ценники на видео</title>
+  <desc id="desc">Из видео торгового зала в таблицу товаров и цен. VLM читает ценники, один ценник склеивается по кадрам.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a33"/><stop offset="1" stop-color="#1c3366"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#9db8f0" stroke-opacity=".05"/></pattern>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="52" y="44" width="8" height="8" rx="4" fill="#ffd166"/>
+    <text x="74" y="53" fill="#ffd166" font-size="13" letter-spacing="3">LENTA TECH LIFE HACK / VLM</text>
+    <text x="48" y="138" fill="#f4f7ff" font-size="60" font-weight="700" letter-spacing="-2">Ценники на видео</text>
+    <text x="52" y="182" fill="#c2cfee" font-size="23">Из зала магазина - в таблицу цен.</text>
+    <text x="52" y="217" fill="#8fa3d1" font-size="16">Кадры · VLM · JSON · склейка по кадрам</text>
+    <g font-size="13" fill="#dbe5ff">
+      <rect x="52" y="258" width="124" height="34" rx="17" fill="#27437f"/><text x="73" y="280">VLM + JSON</text>
+      <rect x="188" y="258" width="104" height="34" rx="17" fill="#27437f"/><text x="208" y="280">3 видео</text>
+      <rect x="304" y="258" width="104" height="34" rx="17" fill="#27437f"/><text x="324" y="280">F1 0,91</text>
+    </g>
+    <path d="M820 165 H864 V104 H913 M864 165 V245 H913" fill="none" stroke="#6f86bf" stroke-width="2"/>
+    <rect x="660" y="125" width="166" height="82" rx="15" fill="#223d73" stroke="#456099"/>
+    <rect x="684" y="143" width="118" height="46" rx="6" fill="none" stroke="#8fa3d1" stroke-width="3"/>
+    <path d="M696 158 H760 M696 172 H740" stroke="#8fa3d1" stroke-width="4" stroke-linecap="round"/>
+    <rect x="912" y="65" width="238" height="80" rx="15" fill="#ffd166"/>
+    <text x="934" y="98" fill="#3a2b00" font-size="13" letter-spacing="1">ЦЕННИК ПРОЧИТАН</text>
+    <text x="934" y="122" fill="#3a2b00" font-size="17" font-weight="600">Название и цена</text>
+    <rect x="912" y="205" width="238" height="80" rx="15" fill="#25427f" stroke="#5e7bbd"/>
+    <text x="934" y="238" fill="#aebfe6" font-size="13" letter-spacing="1">ОДИН ЦЕННИК</text>
+    <text x="934" y="262" fill="#eef3ff" font-size="17" font-weight="600">Склейка по кадрам</text>
+  </g>
+</svg>
